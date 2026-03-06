@@ -55,56 +55,13 @@ This project also includes a **content-based recommender pipeline** using **TF-I
 <img width="1919" height="905" alt="image" src="https://github.com/user-attachments/assets/6da91f46-87ab-4b84-b629-578130af7dc2" />
 
 
-## ⚙️ Setup Instructions
+## ⚙️ Website Link 
 
-### 1️⃣ Clone the Repository
+=:> https://spotify-song-recommender-system-ebsg.onrender.com
 
-```bash
-git clone https://github.com/your-username/spotify-music-recommender.git
-cd spotify-music-recommender
-```
-
-### 2️⃣ Create Virtual Environment (Recommended)
-
-```bash
-python -m venv venv
-source venv/bin/activate      # Linux / macOS
-venv\Scripts\activate         # Windows
-```
-
-### 3️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Run the Streamlit App
-
-```bash
-streamlit run app.py
-```
 <img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/a1f2b44f-e845-416e-b3dc-8921ee634b6e" />
 
 ---
-
-## 🧪 (Optional) Generate ML Pickle Files
-
-If you want to build the TF-IDF recommender artifacts:
-
-```bash
-python recommender.py
-```
-
-This will generate:
-
-* `songs.pkl`
-* `tfidf.pkl`
-* `tfidf_matrix.pkl`
-
-⚠️ These files are **ignored in GitHub** via `.gitignore`.
-
----
-
 
 ## 📌 Notes
 
